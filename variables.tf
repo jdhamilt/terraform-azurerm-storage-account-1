@@ -26,7 +26,3 @@ variable "default_action" {
   default = "Deny"
 }
 
-variable "virtual_network_subnet_ids" {
-  description = "(Required) A list of resource ids for subnets."
-  type = "list"
-}
