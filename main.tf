@@ -3,7 +3,7 @@ terraform {
 }
 
 provider "azurerm" {
-  version = ">= 1.1.0"
+  version = "~> 1.44"
 }
 
 resource "azurerm_storage_account" "sa" {
